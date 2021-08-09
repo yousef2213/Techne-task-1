@@ -1,0 +1,44 @@
+/* font goolge */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+.font-main {
+    font-family: 'Open Sans', sans-serif ;
+}
+.parent {
+    position: relative;
+}
+.btn-container {
+    position: absolute;
+    bottom: 10%;
+}
+.btn-register {
+    border: 1px solid #333 !important;
+}
+.bg-primary {
+    background-color: #2262af !important;
+}
+.description {
+    font-size: 13px;
+}
+.font-weight-bold {
+    font-weight: bold;
+}
+.footer-txt {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media (max-width: 600px){
+    .parent {
+        width: 100% !important;
+    }
+    .div-container {
+        flex-wrap: wrap;
+    }
+    .btn-container {
+        position: relative !important;
+    }
+}
